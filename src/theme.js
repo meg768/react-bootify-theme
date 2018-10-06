@@ -4,9 +4,6 @@ import PropTypes from 'prop-types';
 export default class Theme extends Component {
 
 
-    static defaultProps = {
-        name: undefined
-    }
 
     constructor(props) {
         super(props);
@@ -15,7 +12,7 @@ export default class Theme extends Component {
             require('bootswatch/dist/' + this.props.name + '/bootstrap.min.css');
         }
         else {
-            require('bootstrap/dist/css/bootstrap.min.css');
+            require('bootstrap-css-only/css/bootstrap.min.css');
         }
 
     }
