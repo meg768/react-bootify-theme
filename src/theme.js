@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 
 export default class Theme extends Component {
 
-
-
     constructor(props) {
         super(props);
 
