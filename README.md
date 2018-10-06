@@ -1,2 +1,2 @@
-# react-bootify-theme
-react-bootify-theme
+# react-bootify-themes
+react-bootify-themes
