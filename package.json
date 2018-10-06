@@ -1,6 +1,6 @@
 {
 	"name": "react-bootify-theme",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "react-bootify-theme",
 	"main": "lib/index.js",
 	"scripts": {

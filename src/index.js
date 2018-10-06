@@ -7,11 +7,11 @@ export default class extends React.Component {
 
         var css = null;
 
-        if (this.props.supplier == 'bootswatch' && this.props.name)
+        if (this.props.supplier == 'bootswatch' && this.props.name) {
             css = require('bootswatch/dist/' + this.props.name + '/bootstrap.min.css');
         }
 
-        if (css == null)
+        if (css == null) {
             css = require('bootstrap-css-only/css/bootstrap.min.css');
         }
 
