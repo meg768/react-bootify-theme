@@ -1,6 +1,19 @@
 import React from 'react';
 
-export default class Theme extends React.Component {
+
+export class Bootstrap extends React.Component {
+
+    constructor(props) {
+        super(props);
+        require('bootstrap-css-only/css/bootstrap.min.css');
+    }
+
+    render() {
+        return this.props.children;
+    }
+}
+
+export class Bootswatch extends React.Component {
 
     constructor(props) {
         super(props);
