@@ -3,14 +3,6 @@ import PropTypes from 'prop-types';
 
 export default class Theme extends Component {
 
-    static themeNames = [
-      "materia",
-      "sketchy"
-    ];
-
-    static propTypes = {
-        theme : PropTypes.oneOf(Theme.themeNames).IsRequired
-    };
 
     static defaultProps = {
         name: undefined
